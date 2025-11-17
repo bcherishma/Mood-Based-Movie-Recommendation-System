@@ -1,13 +1,12 @@
 Mood-Based Movie Recommendation System
-Overview
-This project is a mood-based movie recommendation system that suggests movies based on the user's current mood. The system uses natural language processing to analyze the user's input, classifies the emotion using a deep learning model, and then recommends movies aligned with the detected mood employing the Arousal-Valence framework.
+A PyTorch-powered web app that recommends movies based on your current mood, detected through natural language input and mapped via the Arousal-Valence framework.
 
 Features
-Text input for describing mood
+Text input for describing your mood
 
 Emotion classification using a PyTorch deep learning model
 
-Mood-to-genre mapping based on Arousal-Valence model
+Mood-to-genre mapping based on the Arousal-Valence model
 
 Diverse movie recommendations with rating filters
 
@@ -22,31 +21,31 @@ PyTorch
 
 Pandas & NumPy
 
-Machine Learning algorithms
+Machine learning algorithms
 
-Folder Structure
-src/: Contains source code files
-
-data/: Movie dataset and related data files
-
-docs/: Documentation and reports
-
-README.md: This file
-
-Setup Instructions
+Project Structure
+text
+.
+├── src/        # Source code files
+├── data/       # Movie datasets
+├── docs/       # Documentation and reports
+├── README.md   # You are here!
+Installation & Setup
 Clone the repository:
 
-text
+bash
 git clone <repo_url>
 Install dependencies:
 
-text
+bash
 pip install -r requirements.txt
 Run the application:
 
-text
+bash
 streamlit run app.py
 Usage
-Launch the app and type a sentence describing your mood
+Launch the app
 
-The system predicts your mood and provides a list of recommended movies
+Enter a sentence describing your mood
+
+Receive movie recommendations tailored to your mood
